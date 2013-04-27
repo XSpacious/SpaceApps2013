@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html manifest="testapp.manifest">
+
+<!--
+ *  XSpacious
+ *  International Space Apps Challenge 2013
+ *  
+ *  Licensed under a Creative Commons Attribution 3.0 Unported License.
+ *  http://creativecommons.org/licenses/by/3.0/
+ *  
+ *  When using this code please attribute as follows including code authors
+ *  and team members:
+ *  
+ *    Contains code developed by the XSpacious project team as part of the
+ *    International Space Apps Challenge 2013.
+ *  
+ *    Code Authors:
+ *    Joel Mitchelson, Ogglebox Sensory Computing Ltd.
+ *  
+ *    Team Members:
+ *    Abdulrazaq Hassan Abba
+ *    Rallou Dadioti
+ *    Matthew Forman
+ *    Ron Herrema
+ *    Joel Mitchelson, Ogglebox Sensory Computing Ltd.
+ *    Konstantina Saranti
+ *    Andy Schofield
+ *    Tim Trent
+ *  
+ *  If redistributing any or all of the code in this file please include this
+ *  notice and the above license and attribution information.
+ *
+ -->
+
+<head>
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon" href="testappicon.png"/>
+
+    <link rel="apple-touch-startup-image" href="testappstartup.png" />
+    <link rel="stylesheet" href="testapp.css" type="text/css" media="screen, mobile" title="main" charset="utf-8">
+
+    <title>XSpacious</title>
+</head>
+
+
+<body>
+
+<h1>XSpacious</h1>
+
+<table>
+<tr><td>Status</td><td id="statustext">HTML loaded.</td></tr>
+<tr><td>Compass</td><td id="compasstext">-</td></tr>
+<tr><td>Data</td><td id="datatext">-</td></tr>
+</table>
+
+<canvas id="compasscanvas" width="320" height="240" style="border:0px solid #000000;"></canvas>
+<br/>
+<button onclick="newReading()">Log new reading...</button>
+
+<script type="text/javascript" src="testapp.js"></script>
+
+</body>
+</html>
