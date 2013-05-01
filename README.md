@@ -15,7 +15,7 @@ __Contains code developed by the XSpacious project team
  as part of the International Space Apps Challenge 2013.__
   
 __Team Members__
-* Abdulrazaq Abba
+* Abdulrazaq Hassan Abba
 * Rallou Dadioti
 * Matthew Forman
 * Ron Herrema
