@@ -1,0 +1,87 @@
+<!--
+ *  XSpacious
+ *  International Space Apps Challenge 2013
+ *  
+ *  Licensed under a Creative Commons Attribution 3.0 Unported License.
+ *  http://creativecommons.org/licenses/by/3.0/
+ *  
+ *  When using this code please attribute as follows including code authors
+ *  and team members:
+ *  
+ *    Contains code developed by the XSpacious project team as part of the
+ *    International Space Apps Challenge 2013.
+ *  
+ *    Code Authors:
+ *    Joel Mitchelson, Ogglebox Sensory Computing Ltd.
+ *  
+ *    Team Members:
+ *    Abdulrazaq Hassan Abba
+ *    Rallou Dadioti
+ *    Matthew Forman
+ *    Ron Herrema
+ *    Joel Mitchelson, Ogglebox Sensory Computing Ltd.
+ *    Konstantina Saranti
+ *    Andy Schofield
+ *    Tim Trent
+ *  
+ *  If redistributing any or all of the code in this file please include this
+ *  notice and the above license and attribution information.
+ *
+ -->
+ 
+ body {
+    overflow:hidden;
+   	background-color: #ddd; /* Background color */
+    color: #222;            /* Foreground color used for text */
+    font-family: Helvetica; 
+    font-size: 14px;
+    margin: 0;              /* Amount of negative space around the outside of the body */
+    padding: 0;             /* Amount of negative space around the inside of the body */ 
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    border-bottom: 1px solid #666;
+    color: #222;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+table {
+	table-layout: fixed;
+	color : black;
+	background : #fff;
+	border : 1px solid #B4B4B4;
+	font : bold 17px Helvetica;
+	padding : 0;
+	color : #666;
+	border-collapse : collapse;
+	margin : 5px 5px 5px 5px;
+	vertical-align : middle;
+	text-align : left;
+	-webkit-border-radius : 8px;
+	width : 310px;
+}
+
+table td 
+{
+	padding : 5px 5px 5px 5px;
+}
+
+table th {
+	color : black;
+	padding : 1px 1px 1px 1px;
+}
+
+testapp {
+    width: 320px;
+    height: 460px;
+    background:#000;
+}
+
