@@ -29,7 +29,7 @@
 
 // Set this to true to use accelerometer instead of compass
 // - useful for diagnostics on devices without compass (e.g. iPhone 3GS).
-var acceldiag = true;
+var acceldiag = false;
 
 // Set this to true to update the display even when no compass readings are available
 // - useful for checking display on devices without compass
